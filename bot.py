@@ -29,14 +29,15 @@ Play area = x_pad+1, y_pad +1, 1258, 797
 page = requests.get('http://hordes.io/#')
 tree = html.fromstring(page.content)
 
-box_full = (x_pad + 1, y_pad + 1, x_pad + 1258, y_pad + 701)
+#box_full = (x_pad + 1, y_pad + 1, x_pad + 1258, y_pad + 701)
 box_Hp = (11, 129, 206, 147)
 
 cord_hpBox = (109, 11)
 low_Hp = (87,109,96,255)
 
-def
-
+def checkLvl():
+    level = tree.xpath('/div[@id="upperLeftContainer/div[@class="panel"]/div[@class="targetinfo"]/p[@class="targetlevel"]/span[1]]')
+    print level
 def init():
     pyautogui.press('2')
 
@@ -46,8 +47,6 @@ def heal():
     if m_color == low_Hp:
         pyautogui.press('1')
 
-
-#not finished
 def alertBox():
     bool = True
     if alert.alert("Do you want the bot to start/continue press OK", cancel_button="cancel") == False:
