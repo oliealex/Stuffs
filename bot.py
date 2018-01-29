@@ -35,12 +35,7 @@ box_Hp = (11, 129, 206, 147)
 cord_hpBox = (109, 11)
 low_Hp = (87,109,96,255)
 
-
-
-def new_timer():
-    now = datetime.datetime.now()
-    laterSec = now.second + 20
-    laterMin = now.minute + 15
+def
 
 def init():
     pyautogui.press('2')
