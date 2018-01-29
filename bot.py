@@ -29,20 +29,10 @@ char_ybox = 460 + 400)
 
 Play area = x_pad+1, y_pad +1, 1258, 797
 """
-
-char_xbox = 637
-char_ybox = 460
-x_pad = 0
-y_pad = 96
-
-box_radius = (char_xbox-400, char_ybox-260, char_xbox+400, char_ybox+260)
 box_full = (x_pad + 1, y_pad + 1, x_pad + 1258, y_pad + 701)
-box_monSign = (1054, 722, 1273, 773)
 box_Hp = (11, 129, 206, 147)
 
-cord_monBox = (155,25)
 cord_hpBox = (109, 11)
-white = (255,255,255,255)
 low_Hp = (87,109,96,255)
 
 now = datetime.datetime.now()
