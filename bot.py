@@ -39,19 +39,6 @@ now = datetime.datetime.now()
 laterSec = now.second + 20
 laterMin = now.minute + 15
 
-
-#clicks if monster is detected
-"""
-def react(box):
-    bool = False
-    im = screenGrab(box)
-    m_color = im.getpixel(cord_monBox)
-    if m_color == white:
-        bool = True
-        pyautogui.click()
-    return bool
-"""
-
 def new_timer():
     now = datetime.datetime.now()
     laterSec = now.second + 20
