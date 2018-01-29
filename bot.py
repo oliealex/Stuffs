@@ -2,6 +2,8 @@ import os
 import time
 import PIL
 import math
+import lxml
+import requests
 #import autopy
 import numpy
 import datetime
@@ -12,6 +14,8 @@ from PIL import ImageGrab
 from PIL import ImageOps
 #from autopy import alert
 from numpy import *
+from lxml import html
+
 
 """
 Assuming you are playing on a 24' screen
